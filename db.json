@@ -1,0 +1,49 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Admin User",
+      "email": "admin@test.com",
+      "role": "admin",
+      "active": true
+    },
+    {
+      "id": "2",
+      "name": "Simple User",
+      "email": "user@test.com",
+      "role": "user",
+      "active": true
+    }
+  ],
+  "posts": [
+    {
+      "title": "Что такое React?",
+      "content": "React - это JavaScript-библиотека для создания пользовательских интерфейсов. Test",
+      "userId": 1,
+      "id": "1"
+    },
+    {
+      "id": "8645",
+      "title": "rrr",
+      "content": "rrrrrrrrrr",
+      "userId": 1,
+      "publishedAt": "2026-01-13T08:18:36.591Z"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "postId": 1,
+      "body": "Отличная статья!",
+      "author": "Simple User",
+      "approved": true
+    },
+    {
+      "id": "2",
+      "postId": 1,
+      "body": "Спасибо, было полезно.",
+      "author": "Jane Doe",
+      "approved": true
+    }
+  ]
+}
